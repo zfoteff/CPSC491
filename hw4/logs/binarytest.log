@@ -1,0 +1,23 @@
+2021-10-04 19:58:19,233 : Entering binary sort test	|---------------------------------------------
+2021-10-04 19:58:19,233 : Inside binarytest	| Test array: [] Target: 42 Result: 0
+2021-10-04 19:58:19,234 : Number of pairs: 0 Number of comps: 0
+2021-10-04 19:58:19,234 : Inside binarytest	| Test array: [0] Target: 42 Result: 0
+2021-10-04 19:58:19,236 : Number of pairs: 0 Number of comps: 1
+2021-10-04 19:58:19,236 : Inside binarytest	| Test array: [0 1] Target: 1 Result: 1
+2021-10-04 19:58:19,237 : Number of pairs: 1 Number of comps: 1
+2021-10-04 19:58:19,237 : Inside binarytest	| Test array: [0 1] Target: 2 Result: 0
+2021-10-04 19:58:19,238 : Number of pairs: 0 Number of comps: 2
+2021-10-04 19:58:19,238 : Inside binarytest	| Test array: [-3 -2 -2 -1 -1  1  1  1  2  3  4  5  5  7  8  9] Target: 3 Result: 1
+2021-10-04 19:58:19,240 : Number of pairs: 1 Number of comps: 4
+2021-10-04 19:58:19,241 : Inside binarytest	| Test array: [-3 -2 -2 -1 -1  1  1  1  2  3  4  5  5  7  8  9] Target: 4 Result: 1
+2021-10-04 19:58:19,243 : Number of pairs: 1 Number of comps: 3
+2021-10-04 19:58:19,243 : Inside binarytest	| Test array: [-3 -2 -2 -1 -1  1  1  1  2  3  4  5  5  7  8  9] Target: -2 Result: 2
+2021-10-04 19:58:19,245 : Number of pairs: 2 Number of comps: 3
+2021-10-04 19:58:19,246 : Inside binarytest	| Test array: [-3 -2 -2 -1 -1  1  1  1  2  3  4  5  5  7  8  9] Target: 1 Result: 3
+2021-10-04 19:58:19,248 : Number of pairs: 3 Number of comps: 3
+2021-10-04 19:58:19,249 : Inside binarytest	| Test array: [-3 -2 -2 -1 -1  1  1  1  2  3  4  5  5  7  8  9] Target: 6 Result: 0
+2021-10-04 19:58:19,252 : Number of pairs: 0 Number of comps: 5
+2021-10-04 19:58:19,253 : Inside binarytest	| Test array: [-3 -2 -2 -1 -1  1  1  1  2  3  4  5  5  7  8  9] Target: 0 Result: 0
+2021-10-04 19:58:19,257 : Number of pairs: 0 Number of comps: 5
+2021-10-04 19:58:19,257 : Return Results: [0, 0, 1, 0, 1, 1, 2, 3, 0, 0] Test results: [0, 0, 1, 0, 1, 1, 2, 3, 0, 0] Comps: [0, 1, 1, 2, 4, 3, 3, 3, 5, 5]
+2021-10-04 19:58:19,257 : Leaving binary search test	|---------------------------------------------
