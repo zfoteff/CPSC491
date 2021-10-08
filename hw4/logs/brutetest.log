@@ -1,0 +1,21 @@
+2021-10-05 21:38:22,116 : Start brute search test	|---------------------------------------------
+2021-10-05 21:38:22,116 : Inside brute test suite	| Test Arr: [] Target: 42 Result: 0
+2021-10-05 21:38:22,117 : Completed brute search	| Num pairs: 0 Num comps: 0
+2021-10-05 21:38:22,117 : Inside brute test suite	| Test Arr: [1] Target: 42 Result: 0
+2021-10-05 21:38:22,119 : Completed brute search	| Num pairs: 0 Num comps: 0
+2021-10-05 21:38:22,119 : Inside brute test suite	| Test Arr: [1 2] Target: 3 Result: 1
+2021-10-05 21:38:22,121 : Completed brute search	| Num pairs: 1 Num comps: 1
+2021-10-05 21:38:22,122 : Inside brute test suite	| Test Arr: [2 2] Target: 4 Result: 1
+2021-10-05 21:38:22,123 : Completed brute search	| Num pairs: 1 Num comps: 1
+2021-10-05 21:38:22,124 : Inside brute test suite	| Test Arr: [-2  3  1  5 -3 -1  7  4  8  2] Target: 7 Result: 3
+2021-10-05 21:38:22,128 : Completed brute search	| Num pairs: 3 Num comps: 45
+2021-10-05 21:38:22,128 : Inside brute test suite	| Test Arr: [-2  3  1  5 -3 -1  7  4  8  2] Target: 4 Result: 3
+2021-10-05 21:38:22,133 : Completed brute search	| Num pairs: 3 Num comps: 45
+2021-10-05 21:38:22,133 : Inside brute test suite	| Test Arr: [-2  3  1  5 -3 -1  7  4  8  2] Target: 0 Result: 3
+2021-10-05 21:38:22,139 : Completed brute search	| Num pairs: 3 Num comps: 45
+2021-10-05 21:38:22,139 : Inside brute test suite	| Test Arr: [-2  3  1  5 -3 -1  7  4  8  2] Target: -2 Result: 1
+2021-10-05 21:38:22,145 : Completed brute search	| Num pairs: 1 Num comps: 45
+2021-10-05 21:38:22,146 : Inside brute test suite	| Test Arr: [-2  3  1  5 -3 -1  7  4  8  2] Target: 47 Result: 0
+2021-10-05 21:38:22,152 : Completed brute search	| Num pairs: 0 Num comps: 45
+2021-10-05 21:38:22,152 : Return Results: [0, 0, 1, 1, 3, 3, 3, 1, 0] Test results: [0, 0, 1, 1, 3, 3, 3, 1, 0] Comps: [0, 0, 1, 1, 45, 45, 45, 45, 45]
+2021-10-05 21:38:22,152 : End brute force test	|---------------------------------------------

@@ -1,0 +1,12 @@
+2021-10-05 21:46:13,757 : Entering sortedhash	|---------------------------------------------
+2021-10-05 21:46:13,757 : Inside sortedhash	| Test array: [] Target: 42 Result: 0
+2021-10-05 21:46:13,768 : Inside sortedhash	| Test array: [1] Target: 42 Result: 0
+2021-10-05 21:46:14,005 : Inside sortedhash	| Test array: [1 2] Target: 3 Result: 1
+2021-10-05 21:46:14,485 : Inside sortedhash	| Test array: [2 2] Target: 4 Result: 1
+2021-10-05 21:46:14,943 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 7 Result: 3
+2021-10-05 21:46:18,393 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 4 Result: 3
+2021-10-05 21:46:21,788 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 0 Result: 3
+2021-10-05 21:46:25,068 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: -2 Result: 1
+2021-10-05 21:46:28,457 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47 Result: 0
+2021-10-05 21:46:32,325 : Sortedhash results| Sorted: [0 0 0 1 1 1 3 3 3] Hash: [0 0 0 2 3 4 6 6 7]
+2021-10-05 21:46:32,326 : End sortedhash	|---------------------------------------------

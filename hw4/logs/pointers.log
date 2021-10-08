@@ -1,17 +1,456 @@
-2021-10-04 20:08:46,758 : Inside pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47000
-2021-10-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
-1-10-04 20:08:46,758 : Inside pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47000
-2021-10-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
--10-04 20:08:46,758 : Inside pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47000
-2021-10-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
--10-04 20:08:46,758 : Inside pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47000
-2021-10-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
--10-04 20:08:46,758 : Inside pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47000
-2021-10-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
-de pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47000
-2021-10-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
-de pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47000
-2021-10-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
-e pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47000
-2021-10-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
-0-04 20:08:46,770 : Terminating pointers search	| Num pairs: 0 Comps: 0
+2021-10-05 21:47:59,241 : 	Start pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target:47 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+inter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+nter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,241 : 	Start pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target:47 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+inter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+nter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,241 : 	Start pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target:47 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+inter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+nter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,241 : 	Start pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target:47 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+inter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+nter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,241 : 	Start pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target:47 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+inter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+nter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,241 : 	Start pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target:47 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+inter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+nter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,241 : 	Start pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target:47 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+inter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+nter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,241 : 	Start pointers search	| Array: [-3 -2 -1  1  2  3  4  5  7  8] Target:47 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+2021-10-05 21:47:59,244 : 	Pointer search iter.	| BP = 0 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+021-10-05 21:47:59,248 : 	Pointer search iter.	| BP = 1 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,250 : 	Pointer search iter.	| BP = 2 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,253 : 	Pointer search iter.	| BP = 3 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,255 : 	Pointer search iter.	| BP = 4 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,258 : 	Pointer search iter.	| BP = 5 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,260 : 	Pointer search iter.	| BP = 6 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,264 : 	Pointer search iter.	| BP = 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+ 7 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,266 : 	Pointer search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+inter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 
+nter search iter.	| BP = 8 EP = 9 SRC: [-3 -2 -1  1  2  3  4  5  7  8] 
+2021-10-05 21:47:59,269 : 	End pointers search			| Num pairs: 0 Comps: 9 

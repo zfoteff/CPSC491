@@ -1,0 +1,12 @@
+2021-10-05 21:45:55,047 : Entering brutepointers	|---------------------------------------------
+2021-10-05 21:45:55,048 : Inside brutepointers	| Test array: [] Target: 42 Result: 0
+2021-10-05 21:45:55,058 : Inside brutepointers	| Test array: [1] Target: 42 Result: 0
+2021-10-05 21:45:55,069 : Inside brutepointers	| Test array: [1 2] Target: 3 Result: 1
+2021-10-05 21:45:55,084 : Inside brutepointers	| Test array: [2 2] Target: 4 Result: 1
+2021-10-05 21:45:55,101 : Inside brutepointers	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 7 Result: 3
+2021-10-05 21:45:55,131 : Inside brutepointers	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 4 Result: 3
+2021-10-05 21:45:55,161 : Inside brutepointers	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 0 Result: 3
+2021-10-05 21:45:55,192 : Inside brutepointers	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: -2 Result: 1
+2021-10-05 21:45:55,221 : Inside brutepointers	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47 Result: 0
+2021-10-05 21:45:55,254 : Brutepointers results| Brute: [0 0 0 1 1 1 3 3 3] Pointers: [0 0 0 1 1 1 3 3 3]
+2021-10-05 21:45:55,254 : End brutepointers	|---------------------------------------------

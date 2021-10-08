@@ -1,0 +1,12 @@
+2021-10-05 21:45:55,256 : Entering brutehash	|---------------------------------------------
+2021-10-05 21:45:55,257 : Inside brutehash	| Test array: [] Target: 42 Result: 0
+2021-10-05 21:45:55,268 : Inside brutehash	| Test array: [1] Target: 42 Result: 0
+2021-10-05 21:45:55,281 : Inside brutehash	| Test array: [1 2] Target: 3 Result: 1
+2021-10-05 21:45:55,298 : Inside brutehash	| Test array: [2 2] Target: 4 Result: 1
+2021-10-05 21:45:55,315 : Inside brutehash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 7 Result: 3
+2021-10-05 21:45:55,351 : Inside brutehash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 4 Result: 3
+2021-10-05 21:45:55,386 : Inside brutehash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 0 Result: 3
+2021-10-05 21:45:55,423 : Inside brutehash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: -2 Result: 1
+2021-10-05 21:45:55,461 : Inside brutehash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47 Result: 0
+2021-10-05 21:45:55,503 : Brutehash results| Brute: [0 0 0 1 1 1 3 3 3] Hash: [0 0 0 1 1 1 3 3 3]
+2021-10-05 21:45:55,503 : End brutehash	|---------------------------------------------

@@ -1,0 +1,12 @@
+2021-10-05 21:46:32,351 : Entering pointerhash	|---------------------------------------------
+2021-10-05 21:46:32,351 : Inside sortedhash	| Test array: [] Target: 42 Result: 0
+2021-10-05 21:46:32,364 : Inside sortedhash	| Test array: [1] Target: 42 Result: 0
+2021-10-05 21:46:32,644 : Inside sortedhash	| Test array: [1 2] Target: 3 Result: 1
+2021-10-05 21:46:33,175 : Inside sortedhash	| Test array: [2 2] Target: 4 Result: 1
+2021-10-05 21:46:33,722 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 7 Result: 3
+2021-10-05 21:46:37,349 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 4 Result: 3
+2021-10-05 21:46:41,125 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 0 Result: 3
+2021-10-05 21:46:44,711 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: -2 Result: 1
+2021-10-05 21:46:48,463 : Inside sortedhash	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47 Result: 0
+2021-10-05 21:46:52,615 : Sortedhash results| Pointer: [0 0 0 1 1 1 3 3 3] Hash: [0 0 0 2 3 4 6 6 7]
+2021-10-05 21:46:52,615 : End sortedhash	|---------------------------------------------

@@ -1,0 +1,12 @@
+2021-10-05 21:38:22,191 : Start sorted search test	|---------------------------------------------
+2021-10-05 21:38:22,192 : Inside Sorted search test	| Test array: [] Target: 42 Result: 0
+2021-10-05 21:38:22,193 : Inside Sorted search test	| Test array: [1] Target: 42 Result: 0
+2021-10-05 21:38:22,197 : Inside Sorted search test	| Test array: [1 2] Target: 3 Result: 1
+2021-10-05 21:38:22,203 : Inside Sorted search test	| Test array: [2 2] Target: 4 Result: 1
+2021-10-05 21:38:22,210 : Inside Sorted search test	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 7 Result: 3
+2021-10-05 21:38:22,262 : Inside Sorted search test	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 4 Result: 3
+2021-10-05 21:38:22,336 : Inside Sorted search test	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 0 Result: 3
+2021-10-05 21:38:22,412 : Inside Sorted search test	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: -2 Result: 1
+2021-10-05 21:38:22,511 : Inside Sorted search test	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47 Result: 0
+2021-10-05 21:38:22,657 : Return Results: [0, 0, 1, 1, 3, 3, 3, 1, 0] Test results: [0, 0, 1, 1, 3, 3, 3, 1, 0] Comps: [0, 0, 1, 1, 24, 23, 20, 23, 30]
+2021-10-05 21:38:22,657 : End Sorted search test	|---------------------------------------------

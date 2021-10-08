@@ -1,0 +1,12 @@
+2021-10-05 21:45:37,298 : Entering brutesorted	|---------------------------------------------
+2021-10-05 21:45:37,298 : Inside brutesorted	| Test array: [] Target: 42 Result: 0
+2021-10-05 21:45:37,314 : Inside brutesorted	| Test array: [1] Target: 42 Result: 0
+2021-10-05 21:45:37,499 : Inside brutesorted	| Test array: [1 2] Target: 3 Result: 1
+2021-10-05 21:45:37,894 : Inside brutesorted	| Test array: [2 2] Target: 4 Result: 1
+2021-10-05 21:45:38,415 : Inside brutesorted	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 7 Result: 3
+2021-10-05 21:45:41,739 : Inside brutesorted	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 4 Result: 3
+2021-10-05 21:45:45,041 : Inside brutesorted	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 0 Result: 3
+2021-10-05 21:45:48,180 : Inside brutesorted	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: -2 Result: 1
+2021-10-05 21:45:51,427 : Inside brutesorted	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47 Result: 0
+2021-10-05 21:45:55,018 : Brutesorted results| Brute: [0 0 0 1 1 1 3 3 3] Sorted Search: [0 0 0 1 1 1 3 3 3]
+2021-10-05 21:45:55,022 : End brutesorted	|---------------------------------------------

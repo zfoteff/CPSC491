@@ -1,0 +1,11 @@
+2021-10-05 21:47:14,345 : Entering Comprehensive Test 2	|---------------------------------------------
+2021-10-05 21:47:14,345 : Inside tritest	| Test array: [] Target: 42 Result: 0 
+2021-10-05 21:47:14,366 : Inside tritest	| Test array: [1] Target: 42 Result: 0 
+2021-10-05 21:47:14,642 : Inside tritest	| Test array: [1 2] Target: 3 Result: 1 
+2021-10-05 21:47:15,239 : Inside tritest	| Test array: [2 2] Target: 4 Result: 1 
+2021-10-05 21:47:15,814 : Inside tritest	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 7 Result: 3 
+2021-10-05 21:47:19,908 : Inside tritest	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 4 Result: 3 
+2021-10-05 21:47:24,039 : Inside tritest	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 0 Result: 3 
+2021-10-05 21:47:27,915 : Inside tritest	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: -2 Result: 1 
+2021-10-05 21:47:31,931 : Inside tritest	| Test array: [-3 -2 -1  1  2  3  4  5  7  8] Target: 47 Result: 0 
+2021-10-05 21:47:36,343 : Tritest2 results	| Hash: [0 0 0 2 3 4 6 6 7] Sorted: [0 0 0 1 1 1 3 3 3] Pointer: [0 0 0 1 1 1 3 3 3]
